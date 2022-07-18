@@ -17,7 +17,7 @@ export function StarRating({rating}: Props) {
 
   return (
     <View style={styles.content}>
-      <ImageIcon testID="starIcon" color={colors.gold} source={starIcon} />
+      <ImageIcon testID="iconStar" color={colors.gold} source={starIcon} />
       <Text style={styles.ratingText}> {rating.average}</Text>
     </View>
   );
